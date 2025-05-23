@@ -1,0 +1,27 @@
+{
+  "name": "productos-gql",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./dist/index.js",
+  "scripts": {
+    "dev": "tsx --watch index.ts",
+    "build": "tsc",
+    "start": "node --loader ts-node/esm ./dist/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "devDependencies": {
+    "@types/node": "^22.13.4",
+    "nodemon": "^3.1.9",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.7.3"
+  },
+  "dependencies": {
+    "@apollo/datasource-rest": "^6.4.1",
+    "@apollo/server": "^4.11.3",
+    "graphql": "^16.10.0",
+    "tsx": "^4.19.2"
+  }
+}
